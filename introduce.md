@@ -20,6 +20,14 @@ ssh-keygen -t rsa -C "your_email@youremail.com"
 - 拷贝出来，给我放到github 的里面
 - 拉取git:  在目标文件夹的bash/shell：  git clone git@github.com:1211831276/train-research.git
 - 可以看到相关的文件
+- 也可以设置git的用户名和密码
+
+```shell
+git config --global user.name "xxxx"
+git config --global user.email "xxxx@qq.com"
+```
+
+
 
 ## 3、提交等git操作
 
